@@ -30,6 +30,7 @@
 
 #navbar__logo {
 
+    background-clip: border-box;
     font-family: 'Courier New', Courier, monospace;
     background-color: #ffffff;
     background-image: linear-gradient(to top, #ffefa6 0%, #b6c05a 100%);
@@ -128,12 +129,12 @@ width: 100%;
     transition: all 0.5s ease;
     height: 50vh;
     z-index: -1;
-    background: #131313
+    background: #104f55
 }
 
     .navbar__menu.active{
 
-    background: #131313;
+    background: #104f55;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
