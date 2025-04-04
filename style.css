@@ -105,6 +105,56 @@ width: 100%;
     transition: all 0.3s ease; 
 }
 
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.intro__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro__title, .intro__subtitle {
+  background-color: #32746d; /* Darkened to navbar color */
+  padding: 15px 25px;
+  border-radius: 20px; /* Sqircle shape */
+  display: block; /* Ensure they are on separate lines */
+  text-align: center;
+  color: #ffffff; /* White text for better contrast */
+}
+
+.intro__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.intro__subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px; /* Add spacing between title and subtitle */
+}
+
+.intro__description {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 20px 0;
+}
+
+.intro__images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.intro__image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 @media screen and (max-width: 960px) {
 
     .navbar__container {
